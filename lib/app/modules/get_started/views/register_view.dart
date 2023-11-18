@@ -108,7 +108,7 @@ class RegisterView extends GetView {
                       minWidth: 20,
                       minHeight: 20,
                     ),
-                    hintText: 'Masukkan password anda',
+                    hintText: 'Masukkan kata sandi anda',
                     hintStyle: const TextStyle(
                       fontSize: 14,
                       color: AppColors.greyForm,
@@ -161,7 +161,7 @@ class RegisterView extends GetView {
                       minWidth: 20,
                       minHeight: 20,
                     ),
-                    hintText: 'Konfirmasi password anda',
+                    hintText: 'Konfirmasi kata sandi anda',
                     hintStyle: const TextStyle(
                       fontSize: 14,
                       color: AppColors.greyForm,

@@ -108,7 +108,7 @@ class LoginView extends GetView {
                       minWidth: 20,
                       minHeight: 20,
                     ),
-                    hintText: 'Masukkan password anda',
+                    hintText: 'Masukkan kata sandi anda',
                     hintStyle: const TextStyle(
                       fontSize: 14,
                       color: AppColors.greyForm,

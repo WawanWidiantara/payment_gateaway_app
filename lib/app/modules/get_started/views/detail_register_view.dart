@@ -215,7 +215,7 @@ class DetailRegisterView extends GetView {
                 height: 10,
               ),
               const Text(
-                'Nomor Telepon',
+                'Nomor Hp',
                 style: TextStyle(
                     fontSize: 14,
                     color: AppColors.mainText,
