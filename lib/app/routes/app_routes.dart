@@ -12,6 +12,8 @@ abstract class Routes {
   static const HISTORY = _Paths.HISTORY;
   static const ORDER = _Paths.ORDER;
   static const PRODUCT = _Paths.PRODUCT;
+  static const NAVBAR = _Paths.NAVBAR;
+  static const GET_STARTED = _Paths.GET_STARTED;
 }
 
 abstract class _Paths {
@@ -25,4 +27,6 @@ abstract class _Paths {
   static const HISTORY = '/history';
   static const ORDER = '/order';
   static const PRODUCT = '/product';
+  static const NAVBAR = '/navbar';
+  static const GET_STARTED = '/get-started';
 }
