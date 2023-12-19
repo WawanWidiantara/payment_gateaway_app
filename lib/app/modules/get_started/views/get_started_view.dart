@@ -64,7 +64,7 @@ class GetStartedView extends GetView<GetStartedController> {
                           RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(20)))),
                   onPressed: () {
-                    Get.to(() => const LoginView());
+                    Get.off(() => const LoginView());
                     FocusScope.of(context).unfocus();
                   },
                   child: const Text(
@@ -94,7 +94,7 @@ class GetStartedView extends GetView<GetStartedController> {
                             borderRadius: BorderRadius.circular(20)),
                       )),
                   onPressed: () {
-                    Get.to(() => const RegisterView());
+                    Get.off(() => const RegisterView());
                     FocusScope.of(context).unfocus();
                   },
                   child: const Text(

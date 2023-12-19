@@ -177,7 +177,7 @@ class LoginView extends GetView {
                       baseline: TextBaseline.alphabetic,
                       child: GestureDetector(
                         onTap: () {
-                          Get.to(() => const RegisterView());
+                          Get.off(() => const RegisterView());
                           FocusScope.of(context).unfocus();
                         },
                         child: const Text(
